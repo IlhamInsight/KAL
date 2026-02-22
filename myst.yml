@@ -1,0 +1,36 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: f8f5b466-18b5-40ca-92ea-d70db5983f64
+  # title: Komputasi Aljabar Linier
+  description: Komputasi Aljabar Linier adalah cabang ilmu yang mempelajari algoritma untuk menyelesaikan masalah aljabar linier(seperti persamaan linier, matrix, dan vector) menggunakan komputer.
+  # keywords: []
+  authors:
+    - name: Muhammad Ilham
+      email: ilhamm8615@gmail.com
+      github: IlhamInsight
+
+      affiliations:
+        - id: utm
+          institution: Universitas Trunodjoyo Madura
+          department: Teknik Informatika
+
+  toc:
+    - file: src/0-personal_data.md
+    - file: src/1-komputasi_aljabar_linear.md
+    - file: src/2-persamaan_linear.md
+
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  title: Komputasi Aljabar Linear
+  # nav:
+  #   - title: Beranda
+  #     url: /src/1-komputasi_aljabar_linier
+  #   - title: Materi
+  #     url: /src/2-persamaan_linier.md
+  options:
+    logo_text: Notebook K A L
+    # favicon: favicon.ico
+    # logo: site_logo.png
+    # logo: Muhammad Ilham
