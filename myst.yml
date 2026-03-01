@@ -7,6 +7,7 @@ project:
   # keywords: []
   authors:
     - name: Muhammad Ilham
+      # id: 240411100187
       email: ilhamm8615@gmail.com
       github: IlhamInsight
 
@@ -15,10 +16,20 @@ project:
           institution: Universitas Trunodjoyo Madura
           department: Teknik Informatika
 
+  # toc:
+  #   - file: src/0-personal_data.md
+  #   - file: src/1-komputasi_aljabar_linear.md
+  #   - file: src/2-persamaan_linear/1-persamaan_linear.md
+  #       chapters:
+  #         - file: src/2-persamaan_linear/2-persamaan_geogebra
+  #   - file: src/2-persamaan_linear.md
+
   toc:
     - file: src/0-personal_data.md
     - file: src/1-komputasi_aljabar_linear.md
-    - file: src/2-persamaan_linear.md
+    - file: src/2-persamaan_linear/1-persamaan_linear.md
+      children:
+        - file: src/2-persamaan_linear/2-persamaan_geogebra.md
 
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
@@ -30,7 +41,12 @@ site:
   #   - title: Materi
   #     url: /src/2-persamaan_linier.md
   options:
-    logo_text: Notebook K A L
+    logo_text: Notebook K A L .
+    head:
+      - tag: link
+        attrs:
+          rel: stylesheet
+          href: ./style/personal.css
     # favicon: favicon.ico
     # logo: site_logo.png
     # logo: Muhammad Ilham

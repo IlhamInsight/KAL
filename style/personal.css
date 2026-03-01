@@ -1,0 +1,5 @@
+a.external::after,
+a[target="_blank"]::after {
+  display: none !important;
+  content: none !important;
+}
