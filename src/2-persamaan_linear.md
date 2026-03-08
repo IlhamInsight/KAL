@@ -195,10 +195,4 @@ $$
 x_1+x_2+_3+x_4=4
 $$
 
-<!-- materi baru -->
-
-example 1.2.8 pak mul
-
-tugas
-
-buat 4 persamaan 4 var yang nanti x1nya = 1 x2nya = 2 x3nya = 3 x4nya = 4
+3x1
