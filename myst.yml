@@ -23,7 +23,10 @@ project:
       children:
         - file: src/2-persamaan_linear/2-persamaan_geogebra.md
         - file: src/2-persamaan_linear/3-sage_math.md
-    - file: src/3-eliminasi_gauss.md
+    - file: src/3-eliminasi_gauss/1-eliminasi_gauss.md
+      children:
+        - file: src/3-eliminasi_gauss/2-tugas_4.md
+        - file: src/3-eliminasi_gauss/3-tugas_5.md
 
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
