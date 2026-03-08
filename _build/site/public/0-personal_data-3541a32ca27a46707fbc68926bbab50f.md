@@ -1,9 +1,0 @@
----
-title: Personal Data
-date: 2026-02-22
-{figure} ../images/profil.png
-:width: 60%
-:align: center
-
-Gambar Sistem Persamaan Linear
----
