@@ -28,6 +28,11 @@ project:
         - file: src/3-eliminasi_gauss/2-tugas_4.md
         - file: src/3-eliminasi_gauss/3-tugas_5.md
 
+    - file: src/4-determinan/1-determinan.md
+      children:
+        - file: src/4-determinan/2-tugas-adjoin.md
+      #   - file: src/4-determinan/3-tugas_7.md
+
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
