@@ -5,7 +5,7 @@ date: 2026-03-09
 
 ## Membuat operasi baris elementar 4 variabel dan 4 persamaan (eliminasi gauss)
 
-$ x1 = 1, x2 = 2, x3 = 3, x4 = 4, x5 = 5 $
+$ x1 = 1, x2 = 2, x3 = 3, x4 = 4$
 
 ### Sistem Persamaan Linear
 
