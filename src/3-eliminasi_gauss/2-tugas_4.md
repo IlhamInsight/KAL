@@ -85,6 +85,17 @@ $$
 
 3. Baris 4 ($R_4$) Baris 4 ($R_4$) sudah memiliki nol di kolom ketiga. Matriks ini sudah berbentuk Eselon Baris (segitiga atas). Jadi tidak perlu melakukan menolkan kolom 3 karena di bawah pivot $ x_3 $ sudah nol.
 
+Dari matriks ini, kita baca persamaan-persamaannya sebagai berikut:
+
+$$
+\begin{cases}
+0x_1 + 0x_2 + 0x_3 + 1x_4 = 4 & \text{(Baris 4)} \\
+0x_1 + 0x_2 + 3x_3 + 1x_4 = 13 & \text{(Baris 3)} \\
+0x_1 + 1x_2 - 1x_3 - 1x_4 = -5 & \text{(Baris 2)} \\
+1x_1 + 1x_2 + 1x_3 + 1x_4 = 10 & \text{(Baris 1)}
+\end{cases}
+$$
+
 ### Subtitusi Balik
 
 - Mencari $x_4$ (dari baris 4):
