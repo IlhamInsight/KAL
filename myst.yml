@@ -31,7 +31,7 @@ project:
     - file: src/4-determinan/1-determinan.md
       children:
         - file: src/4-determinan/2-tugas-adjoin.md
-      #   - file: src/4-determinan/3-tugas_7.md
+        - file: src/4-determinan/3-tugas_evaluasi.md
 
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
