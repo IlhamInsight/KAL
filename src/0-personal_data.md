@@ -30,11 +30,11 @@ date: 2026-02-22
   </table>
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Saya adalah seorang mahasiswa yang memiliki minat terhadap pengembangan website, khususnya pada area yang berkaitan dengan dunia digital seperti pemrograman, analisis data, dan pengembangan sistem. Selama menjalani perkuliahan, saya terbiasa menggunakan berbagai tools dan teknologi seperti bahasa pemrograman, software pengolahan data, serta platform pendukung lainnya untuk menyelesaikan tugas maupun proyek.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Saya memiliki kemampuan dalam berpikir logis, pemecahan masalah, serta mampu memahami konsep-konsep baru dengan cukup cepat. Selain itu, saya juga terbiasa bekerja secara terstruktur dan teliti dalam mengerjakan suatu pekerjaan, baik secara individu maupun dalam tim. Dalam kerja tim, saya mampu berkomunikasi dengan baik, bertanggung jawab terhadap tugas yang diberikan, serta terbuka terhadap masukan dan ide dari orang lain.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Saya juga memiliki semangat belajar yang tinggi dan selalu berusaha untuk mengembangkan kemampuan diri, baik melalui pembelajaran di kelas, eksplorasi mandiri, maupun mengikuti perkembangan teknologi terbaru. Dengan sikap disiplin, adaptif, dan motivasi yang kuat, saya berharap dapat terus meningkatkan kompetensi serta memberikan kontribusi yang positif di lingkungan akademik maupun profesional ke depannya.
 
 <style>
     .social a::after {
