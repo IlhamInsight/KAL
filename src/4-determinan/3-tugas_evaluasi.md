@@ -5,7 +5,7 @@ date: 2026-4-20
 
 ## soal
 
-A. Hitunglah determinan matrik berikut dengan menggunakan rumus expansi baris
+### A. Hitunglah determinan matrik berikut dengan menggunakan rumus expansi baris
 
 $$
 \sum_{k=1}^n (-1)^{i+k} a_{ik} M_{ik}
@@ -23,7 +23,7 @@ $A_{ij}$ adalah submatrik dengan menghapus baris i dan kolom kolom j dari matrix
 2. $$A = \begin{bmatrix} 0 & 2 & -3 \\ 1 & -2 & -1 \\ 0 & 0 & 1 \end{bmatrix}$$
 3. $$A = \begin{bmatrix} 1 & -3 & 1 & 1 \\ -3 & 1 & 1 & 1 \\ 1 & 1 & -3 & 1 \\ 1 & 1 & 1 & -3 \end{bmatrix}.$$
 
-B. Gunakan rumus matriks adjoin untuk menghitung invers dari matriks berikut dengan rumus
+### B. Gunakan rumus matriks adjoin untuk menghitung invers dari matriks berikut dengan rumus
 
 $$(\operatorname{adj} A)_{ij} = (-1)^{i+j} M_{ji}$$
 
@@ -37,7 +37,9 @@ $$A^{-1} = \frac{1}{\det A} \operatorname{adj} A.$$
 
 ## Jawaban
 
-1. $$A = \begin{bmatrix} -7 & -5 \\ 1 & 4 \end{bmatrix}$$
+### 1. SOal 1
+
+$$A = \begin{bmatrix} -7 & -5 \\ 1 & 4 \end{bmatrix}$$
 
 Rumus determinan matrixs 2 x 2
 
@@ -51,15 +53,17 @@ $$
 
   $$= -28 - (-5) = -28 + 5 = -23$$
 
-2. $$A = \begin{bmatrix} 0 & 2 & -3 \\ 1 & -2 & -1 \\ 0 & 0 & 1 \end{bmatrix}$$
+### 2. Soal 2
 
-### Langkah 1: Rumus expansi baris ke - 3
+$$A = \begin{bmatrix} 0 & 2 & -3 \\ 1 & -2 & -1 \\ 0 & 0 & 1 \end{bmatrix}$$
+
+Langkah 1: Rumus expansi baris ke - 3
 
 $$
 \det(A) = (-1)^{3+1} a_{31} M_{31} + (-1)^{3+2} a_{32} M_{32} + (-1)^{3+3} a_{33} M_{33}
 $$
 
-### Langkah 2: Lihat elemen pada baris ke - 3
+Langkah 2: Lihat elemen pada baris ke - 3
 
 Matriks asli:
 $$A = \begin{bmatrix} 0 & 2 & -3 \\ 1 & -2 & -1 \\ 0 & 0 & 1 \end{bmatrix}$$
@@ -111,16 +115,18 @@ $$\det(A) = 0 + 0 + (-2) = -2$$
 
 determinan A adalah: - 2
 
-3. $$
-   A = \begin{bmatrix}
-   1 & -3 & 1 & 1 \\
-   -3 & 1 & 1 & 1 \\
-   1 & 1 & -3 & 1 \\
-   1 & 1 & 1 & -3
-   \end{bmatrix}
-   $$
+### 3. Soal 3
 
-### Langkah 1: Rumus ekspansi baris ke-1 ($ i = 1 $):
+$$
+A = \begin{bmatrix}
+1 & -3 & 1 & 1 \\
+-3 & 1 & 1 & 1 \\
+1 & 1 & -3 & 1 \\
+1 & 1 & 1 & -3
+\end{bmatrix}
+$$
+
+Langkah 1: Rumus ekspansi baris ke-1 ($ i = 1 $):
 
 $$\det(A) = (-1)^{1+1}a_{11}M_{11} + (-1)^{1+2}a_{12}M_{12} + (-1)^{1+3}a_{13}M_{13} + (-1)^{1+4}a_{14}M_{14}$$
 
@@ -138,11 +144,14 @@ $$
 Baris ke-1: 1  -3  1  1
 
 Langkah 2: Hitung satu per satu
+
 Suku Pertama (Kolom 1):
 
-Elemen: $ a*{11} = 1 $
+Elemen: $ a\_{11} = 1 $
+
 Tanda: $ (-1)^{1+1} = +1 $
-Minor $ M*{11} $ (hapus baris 1, kolom 1):
+
+Minor $ M\_{11} $ (hapus baris 1, kolom 1):
 
 $$
 \begin{bmatrix}
@@ -152,8 +161,18 @@ $$
 \end{bmatrix}
 $$
 
+angka didepan matrix setelah dihapus baris dan kolom itu didapatkan dari
+
+- Kolom 1 (posisi 1,1): $ (-1)^{1+1} = (-1)^2 = \mathbf{+1} $
+
+- Kolom 2 (posisi 1,2): $ (-1)^{1+2} = (-1)^3 = \mathbf{-1} $
+
+- Kolom 3 (posisi 1,3): $ (-1)^{1+3} = (-1)^4 = \mathbf{+1} $
+
 $$M_{11} = 1\begin{vmatrix}-3&1\\1&-3\end{vmatrix} -1\begin{vmatrix}1&1\\1&-3\end{vmatrix} +1\begin{vmatrix}1&-3\\1&1\end{vmatrix} = -16$$
-Suku 1 = $ (+1) \times 1 \times (-16) = -16 $
+
+Suku 1 = $M_{11} = (1)(8) + (-1)(-4) + (1)(4) = 8 + 4 + 4 = \mathbf{16}$
+
 Suku Kedua (Kolom 2):
 
 Elemen: $ a*{12} = -3 $
@@ -207,12 +226,14 @@ Langkah 3: Jumlahkan semua suku
 $$\det(A) = -16 + (-48) + 16 + 16 = -48 + 48 = \boxed{0}$$
 Determinan matriks A adalah 0.
 
-4. $$
-   A = \begin{bmatrix}
-   -7 & -5 \\
-   1 & 4\\
-   \end{bmatrix}
-   $$
+### 4. Soal 4
+
+$$
+A = \begin{bmatrix}
+-7 & -5 \\
+1 & 4\\
+\end{bmatrix}
+$$
 
 Langkah 1: Hitung Determinan
 $$\det(A) = (-7 \times 4) - (-5 \times 1) = -28 + 5 = {-23}$$
@@ -223,17 +244,17 @@ Menurut rumus yang diberikan soal:
 $ (adj A)_{ij} = (-1)^{i+j} M_{ji} $
 Kita hitung setiap elemen adjoin satu per satu:
 
-$ (adj A)_{11} = (-1)^{1+1} \times $ minor $ M_{11} $
-Minor $ M*{11} $ = 4 → $ (adj A)*{11} = 4 $
+- $ (adj A)_{11} = (-1)^{1+1} \times $ minor $ M_{11} $
+  Minor $ M_{11} = 4 → (adj A)_{11} = 4 $
 
-$ (adj A)_{12} = (-1)^{1+2} \times $ minor $ M_{21} $
-Minor $ M*{21} $ = -5 → $ (adj A)*{12} = -1 \times (-5) = 5 $
+- $ (adj A)_{12} = (-1)^{1+2} \times $ minor $ M_{21} $
+  Minor $ M_{21} = -5 → (adj A)_{12} = -1 \times (-5) = 5 $
 
-$ (adj A)_{21} = (-1)^{2+1} \times $ minor $ M_{12} $
-Minor $ M*{12} $ = 1 → $ (adj A)*{21} = -1 \times 1 = -1 $
+- $ (adj A)_{21} = (-1)^{2+1} \times $ minor $ M_{12} $
+  Minor $ M_{12} = 1 → (adj A)_{21} = -1 \times 1 = -1 $
 
-$ (adj A)_{22} = (-1)^{2+2} \times $ minor $ M_{22} $
-Minor $ M*{22} $ = -7 → $ (adj A)*{22} = +(-7) = -7 $
+- $ (adj A)_{22} = (-1)^{2+2} \times $ minor $ M_{22} $
+  Minor $ M_{22} = -7 → (adj A)_{22} = +(-7) = -7 $
 
 Jadi matriks Adjoin:
 
@@ -272,13 +293,15 @@ A^{-1} = \frac{1}{-23} \begin{bmatrix} 4 & -(-5) \\ -1 & -7 \end{bmatrix}
 = \frac{1}{-23} \begin{bmatrix} 4 & 5 \\ -1 & -7 \end{bmatrix}
 $$
 
-5. $$
-   A = \begin{bmatrix}
-   0 & 2 & -3 \\
-   1 & -2 & -1 \\
-   0 & 0 & 1\\
-   \end{bmatrix}
-   $$
+### 5. Soal 5
+
+$$
+A = \begin{bmatrix}
+0 & 2 & -3 \\
+1 & -2 & -1 \\
+0 & 0 & 1\\
+\end{bmatrix}
+$$
 
 Langkah 1: Hitung Determinan
 
@@ -308,7 +331,7 @@ $$
 adj(A) = \begin{bmatrix}
 -2 & -2 & -8 \\
 -1 & 0 & -3 \\
-0 & 0 & 2
+0 & 0 & -2
 \end{bmatrix}
 $$
 
@@ -318,7 +341,7 @@ $$
 A^{-1} = \frac{1}{\det(A)} \times adj(A) = \frac{1}{-2} \begin{bmatrix}
 -2 & -2 & -8 \\
 -1 & 0 & -3 \\
-0 & 0 & 2
+0 & 0 & -2
 \end{bmatrix}
 $$
 
@@ -329,19 +352,21 @@ A^{-1} = {
 \begin{bmatrix}
 1 & 1 & 4 \\
 \frac{1}{2} & 0 & \frac{3}{2} \\
-0 & 0 & -1
+0 & 0 & 1
 \end{bmatrix}
 }
 $$
 
-6. $$
-   A = \begin{bmatrix}
-   1 & -3 & 1 & 1 \\
-   -3 & 1 & 1 & 1 \\
-   1 & 1 & -3 & 1 \\
-   1 & 1 & 1 & -3\\
-   \end{bmatrix}
-   $$
+### 6. Soal 6
+
+$$
+A = \begin{bmatrix}
+1 & -3 & 1 & 1 \\
+-3 & 1 & 1 & 1 \\
+1 & 1 & -3 & 1 \\
+1 & 1 & 1 & -3\\
+\end{bmatrix}
+$$
 
 Langkah 1: Hitung Determinan det(A)
 
