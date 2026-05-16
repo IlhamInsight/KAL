@@ -36,6 +36,7 @@ project:
     - file: src/5-vektor/1-transformasi_linier.md
       children:
         - file: src/5-vektor/2-implementasi_transformasi.ipynb
+        - file: src/5-vektor/3-eigen_value_eigen_vector.ipynb
 
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
