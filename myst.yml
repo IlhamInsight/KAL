@@ -37,6 +37,7 @@ project:
       children:
         - file: src/5-vektor/2-implementasi_transformasi.ipynb
         - file: src/5-vektor/3-eigen_value_eigen_vector.ipynb
+        - file: src/5-vektor/4-eigenfaces.md
 
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
