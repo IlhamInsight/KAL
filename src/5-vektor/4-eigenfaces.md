@@ -39,7 +39,7 @@ Untuk melatih sistem ini, kita menggunakan dataset legendaris yaitu **AT&T Labor
 Untuk mencoba program ini di komputer Anda, ikuti panduan praktis berikut:
 
 ### A. Instalasi Pustaka (Library) Pendukung
-Buka terminal Anda dan instal beberapa pustaka Python yang dibutuhkan dengan perintah ini:
+Instal beberapa pustaka Python yang dibutuhkan dengan perintah ini:
 
 ```bash
 pip install opencv-python numpy matplotlib scikit-learn
@@ -55,8 +55,7 @@ Untuk mengetes kemampuan pengenalan wajah:
 * Siapkan satu foto wajah baru dan simpan di folder `img` dengan nama **`test_wajah.jpg`**.
 * Jika file ini tidak ada, skrip akan secara otomatis menyalin salah satu foto dari dataset latihan sebagai bahan uji coba agar program tidak error.
 
-### D. Urutan Lengkap Perintah Terminal (Quick Copy-Paste)
-Silakan salin urutan perintah berikut dan jalankan langsung di terminal Anda:
+### D. Urutan Perintah Terminal
 
 ```bash
 # 1. Masuk ke folder project Anda
